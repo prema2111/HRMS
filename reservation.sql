@@ -1,0 +1,1 @@
+﻿ALTER TABLE reservations add CONSTRAINT fk_roomNumber_id FOREIGN KEY (roomNumber) REFERENCES rooms(roomNumber); 

@@ -1,0 +1,1 @@
+﻿ALTER TABLE reservations add CONSTRAINT fk_client_id FOREIGN KEY (clientid) REFERENCES Client36(Id) on UPDATE CASCADE on DELETE CASCADE;
